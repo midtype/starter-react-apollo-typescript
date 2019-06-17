@@ -1,0 +1,20 @@
+header.nav {
+  position: fixed;
+  background: rgba(45, 45, 45, 0.98);
+  width: 100vw;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links__page {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+  transition: 250ms opacity;
+}
+
+.nav__links__page:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+.login {
+  width: 30rem;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5rem;
+  background: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+
+.login__google-sign-in {
+  width: 10rem;
+}

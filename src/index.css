@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  padding: 2rem;
+  padding-top: calc(2rem + 44px);
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-size: 14px;
+}
