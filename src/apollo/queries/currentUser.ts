@@ -2,20 +2,24 @@ import { gql } from 'apollo-boost';
 
 export default gql`
   {
-    currentUser {
+    mUserInSession {
       id
-      name
-      email
-      photoUrl
+      private {
+        name
+        email
+        photoUrl
+      }
     }
   }
 `;
 
 export interface ICurrentUser {
-  currentUser: {
+  mUserInSession: {
     id: string;
-    name: string;
-    email: string;
-    photoUrl: string;
+    private: {
+      name: string;
+      email: string;
+      photoUrl: string;
+    };
   };
 }
