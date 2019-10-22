@@ -3,7 +3,7 @@ import ApolloClient from 'apollo-boost';
 import { getJWT } from '../utils/jwt';
 
 const client = new ApolloClient({
-  uri: `https://${process.env.REACT_APP_MY_APP_ID}.midtype.dev/graphql`,
+  uri: process.env.REACT_APP_MY_APP_ENDPOINT,
   request: operation => {
     operation.setContext(() => {
       // On every request to the API, retrieve the JWT from local storage.

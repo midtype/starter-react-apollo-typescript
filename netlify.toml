@@ -1,0 +1,14 @@
+[build]
+  publish = "build/"
+  command = "yarn build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[template.environment]
+  REACT_APP_MY_APP_NAME="Your App's Display Name"
+  REACT_APP_MY_APP_ID="Your Midtype Project ID"
+  REACT_APP_MY_APP_ENDPOINT="Your Midtype project's endpoint"
+  REACT_APP_MY_APP_REDIRECT_URL="The URL users should be redirected to after login"
