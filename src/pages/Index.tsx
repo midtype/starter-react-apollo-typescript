@@ -12,7 +12,7 @@ const IndexPage: React.FC = () => {
         if (loading) {
           return <Loader />;
         } else if (data) {
-          return <h1>Hello, {data.currentUser.name}!</h1>;
+          return <h1>Hello, {data.mUserInSession.private.name}!</h1>;
         }
         return <h1>Error!</h1>;
       }}
